@@ -3,8 +3,8 @@
 import inquirer from "inquirer";
 
 const answer = await inquirer.prompt([
-    { message: "Enter first number", type: "number", name: "firstNumber" },
-    { message: "Enter second number", type: "number", name: "secondNumber" },
+    { message: "Enter your first number", type: "number", name: "firstNumber" },
+    { message: "Enter your second number", type: "number", name: "secondNumber" },
     {
       message: "Select one of the operator to perform operation",
       type: "list",
@@ -24,3 +24,4 @@ const answer = await inquirer.prompt([
   } else console.log("Invalid Operator!\nPlease select Valid Operator NexT time,\nThank you;");
   // printing made by:
   console.log('\n"Made by Hmoavia.07"');
+  console.log("THE END");
